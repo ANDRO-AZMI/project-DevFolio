@@ -1,0 +1,342 @@
+/* ^home page */
+
+body{
+    
+    background-color: #f1ecec;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999 ;
+}
+
+.photo-for-home{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) , url(../img/hero-bg.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.font-h1{
+    TOP: 50%;
+    left: 25%;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+h1{
+    text-align: center;
+}
+
+
+h2::after{
+    content: ' |' ;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+}
+
+@keyframes blink{
+    0% {    content: ' |' ; }
+    1% {   content: ' |D' ; }
+    2% {    content: ' |De' ; }
+    3% {    content: ' |Des' ; }
+    4% {    content: ' |Desi' ; }
+    5% {    content: ' |Desig' ; }
+    6% {    content: ' |Design' ; }
+    7% {   content: ' |Designe' ; }
+    8% {   content: ' |Designer' ; }
+    9% {    content: ' |Designe' ; }
+    10% {    content: ' |Design' ; }
+    11% {    content: ' |Desig' ; }
+    12% {    content: ' |Desi' ; }
+    13% {    content: ' |Des' ; }
+    14% {    content: ' |De' ; }
+    15% {    content: ' |Dev' ; }
+    16% {    content: ' |Deve' ; }
+    17% {    content: ' |Devel' ; }
+    18% {    content: ' |Develo' ; }
+    19% {    content: ' |Develop' ; }
+    20% {    content: ' |Develope' ; }
+    21% {    content: ' |Developer' ; }
+    22% {    content: ' |Develope' ; }
+    23% {    content: ' |Develop' ; }
+    24% {    content: ' |Develo' ; }
+    25% {    content: ' |Devel' ; }
+    26% {    content: ' |Deve' ; }
+    27% {    content: ' |Dev' ; }
+    28% {    content: ' |De' ; }
+    29% {    content: ' |D' ; }
+    30% {    content: ' |' ; }
+    31% {    content: ' |F' ; }
+    32% {    content: ' |Fr' ; }
+    33% {    content: ' |Fre' ; }
+    34% {    content: ' |Free' ; }
+    35% {    content: ' |Freel' ; }
+    36% {    content: ' |Freela' ; }
+    37% {    content: ' |Freelan' ; }
+    38% {    content: ' |Freelanc' ; }
+    39% {    content: ' |Freelance' ; }
+    40% {    content: ' |Freelancer' ; }
+    41% {    content: ' |Freelance' ; }
+    42% {    content: ' |Freelanc' ; }
+    43% {    content: ' |Freelan' ; }
+    44% {    content: ' |Freela' ; }
+    45% {    content: ' |Freel' ; }
+    46% {    content: ' |Free' ; }
+    47% {    content: ' |Fre' ; }
+    48% {    content: ' |Fr' ; }
+    49% {    content: ' |F' ; }
+    50% {    content: ' |' ; }
+    51% {    content: ' |P' ; }
+    52% {    content: ' |Ph' ; }
+    53% {    content: ' |Pho' ; }
+    54% {    content: ' |Phot' ; }
+    55% {    content: ' |Photo' ; }
+    56% {    content: ' |Photog' ; }
+    57% {    content: ' |Photogh' ; }
+    58% {    content: ' |Photoghr' ; }
+    59% {    content: ' |Photoghra' ; }
+    60% {    content: ' |Photoghrap' ; }
+    61% {    content: ' |Photoghraph' ; }
+    62% {    content: ' |Photoghraphe' ; }
+    63% {    content: ' |Photoghrapher' ; }
+    64% {    content: ' |Photoghraphe' ; }
+    65% {    content: ' |Photoghraph' ; }
+    66% {    content: ' |Photoghrap' ; }
+    67% {    content: ' |Photoghra' ; }
+    68% {    content: ' |Photoghr' ; }
+    69% {    content: ' |Photogh' ; }
+    70% {    content: ' |Photog' ; }
+    75% {    content: ' |Photo' ; }
+    80% {    content: ' |Phot' ; }
+    85% {    content: ' |Pho' ; }
+    90% {    content: ' |Ph' ; }
+    95% {    content: ' |P' ; }
+    100% {    content: ' |' ; }
+}
+
+/* &about */
+.for-back{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.vertical{
+vertical-align: middle;
+}
+.items{
+    width: 54%;
+    text-align: left;
+}
+
+.kht{
+    background-color: blue;
+    width: 25%;
+    height: 2px;
+}
+.parafraph{
+   font-size: 18px;
+  
+}
+/** servise */
+
+
+.for-bg{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.parafrapher{
+    font-size: 25px;
+}
+
+.kht2{
+    background-color: blue;
+    width: 5%;
+    height: 3px;
+   margin: 0 auto;
+}
+
+.icons{
+    /* background-color: black; */
+    width: 100%;
+    height: 10rem;
+}
+
+.ic{
+   position: absolute;
+   width: 40%;
+   height: 40%;
+   left: 30%;
+   top: 6%;
+   border-radius: 50%;
+ 
+   border: 10px solid blue;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+.card-text,.card-title,.parafrapher h5{
+    text-align: center;
+}
+
+.card:hover .ic{
+    background-color: blue;
+    border: 10px solid #e0d9d9;
+}
+
+/* work */
+
+.work{
+    width: 100%;
+    height: 64vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient( rgba(41, 126, 244, 0.4) , rgba(41, 126, 244, 0.4)) , url(../img/counters-bg.jpg) ;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #f1ecec 10px solid;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.fss{
+    height: 63.6vh;
+    width: 100%;
+ 
+    margin: 0 auto;
+}
+
+
+/* portfolio */
+.for-plus{
+    border: 2px rgb(18, 18, 172) solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.cardo{
+    margin-top: 40px;
+}
+.card-img{
+    overflow: hidden;
+}
+.cardo img {
+    transition: transform 1s ease-in-out;
+    -webkit-transition: transform 1s ease-in-out;
+    -moz-transition: transform 1s ease-in-out;
+    -ms-transition: transform 1s ease-in-out;
+    -o-transition: transform 1s ease-in-out;
+}
+.cardo:hover img{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+
+
+
+/* &Carousel */
+
+.work-2{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient( rgba(41, 126, 244, 0.4) , rgba(41, 126, 244, 0.4)) , url(../img/overlay-bg.jpg) ;
+}
+
+.carousel-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* blog */
+.photo-icon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.fix-clear{
+ clear: both;
+}
+.travel{
+    position: absolute;
+    background-color: blue;
+    width: 4rem;
+    height: 1.5rem;
+    top:-7% ;
+    left: 40%;
+}
+
+/* * contact */
+
+.work-3{
+    width: 100%;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient( rgba(41, 126, 244, 0.4) , rgba(41, 126, 244, 0.4)) , url(../img/counters-bg.jpg) ;
+}
+
+.kht3{
+    background-color: blue;
+    width: 25%;
+    height: 3px;
+   margin: 0 ;
+}
+
+.icn{
+ border: solid blue 2px;
+ width: 3rem;
+ height: 3rem;
+ border-radius:50% ;
+ -webkit-border-radius:50% ;
+ -moz-border-radius:50% ;
+ -ms-border-radius:50% ;
+ -o-border-radius:50% ;
+}
+
+.icn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: white 2px solid;
+}
